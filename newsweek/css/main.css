@@ -1,0 +1,137 @@
+.main-content {
+    position:relative;
+  }
+  
+  .img-responsive {
+    width: 100%;
+  }
+  
+  .info-wrapper {
+    position: relative;
+  }
+  
+  .category-main {
+    font: 15px;
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .content-background {
+    margin-left: -10px;
+    margin-right: -10px;
+    position: relative;
+  }
+  
+  .story {
+    text-transform: uppercase;
+    color:black;
+    text-align: center;
+  }
+  
+  .summary {
+    text-align: center;
+  }
+  
+  a {
+    color:inherit;
+  }
+  
+  .info-wrapper {
+    border-top: 4px solid red;
+    padding: 10px 20px 20px;
+  }
+  
+  @media only screen and (min-width: 768px){
+    .info-wrapper {
+      background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 992px){
+    .category-main {
+      font-size: 20px;
+    }
+  }
+  
+  .main-horizontal-divider {
+    border-top:1px solid lightgray;
+  }
+
+  .vertical-divider {
+    border-right:1px solid lightgray;
+  }
+  
+  @media only screen and (min-width: 768px){
+    .vertical-divider {
+      height: 600px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px){
+    .vertical-divider {
+      height: 600px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px){
+    .vertical-divider {
+      height: 800px;
+    }
+  }
+  
+  /*Sub*/
+  
+  .sub-box {
+    margin-top: 10px;
+    border-bottom:1px solid lightgray;
+  }
+  
+  .category-main.blue {
+    color: #00B7FF;
+  }
+  
+  #blue-background {
+    border: 1px solid lightblue;
+    background-color: lightblue;
+  }
+  
+  @media only screen and (max-width: 767px){
+    .sub-box {
+      height: 630px;
+    }
+    #blue-background {
+      height: 615px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px){
+    .sub-box {
+      height: 550px;
+    }
+    #blue-background {
+      height: 535px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px){
+    .sub-box {
+      height: 670px;
+    }
+    #blue-background {
+      height: 555px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px){
+    .sub-box {
+      height: 690px;
+    }
+    #blue-background {
+      height: 675px;
+    }
+  }
